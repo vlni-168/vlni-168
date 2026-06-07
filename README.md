@@ -1,4 +1,4 @@
-## Hi there I'm Valentin 👋  
+## Hi, I'm Valentin 👋  
 
 I'm a physical chemist working on spectroscopy, quantum chemical calculations and software for measurement instruments
 
@@ -8,11 +8,11 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Skills
 ### Familiar with
-<p align="center">
+<p align="left">
   <img src="https://skillicons.dev/icons?i=latex,linux" />
 </p>
 
 ### Still learning
-<p align="center">
+<p align="left">
   <img src="https://skillicons.dev/icons?i=autocad,py,git,github" />
 </p>

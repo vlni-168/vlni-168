@@ -2,11 +2,11 @@
 
 I'm a physical chemist working on spectroscopy, quantum chemical calculations and software for measurement instruments
 
-# Current projects
+## Current projects
 
 - pchem.py       --> A python module for physical chemistry research
 
-# Skills
+## Skills
 
 - Python
 - LabVIEW

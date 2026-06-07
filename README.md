@@ -15,4 +15,14 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 ### Still learning
 <p align="left">
   <img src="https://skillicons.dev/icons?i=autocad,py,git,github&perline=3" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/labview/labview-plain-wordmark.svg" />
+  <a href="https://github.com" target="_blank">
+    <img src="https://shields.io" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
+  </a>
+  <a href="https://github.com" target="_blank">
+    <img src="https://shields.io" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
+  </a>
+  <a href="https://github.com" target="_blank">
+    <img src="https://shields.io" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
+  </a>
 </p>

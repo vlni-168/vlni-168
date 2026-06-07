@@ -20,7 +20,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
   
   <br>
   <a href="https://github.com/grimme-lab/xtb" target="_blank">
-    <img src="https://img.shields.io/badge/grimme--lab-xTB-#21262d?logo=github" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
+    <img src="https://img.shields.io/badge/grimme--lab-xTB-black?logo=github" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
   </a>
 
   <br>

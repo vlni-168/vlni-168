@@ -7,21 +7,20 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 - pchem.py       --> A python module for physical chemistry research
 
 ## Skills
+### Familiar with
+<br>
 
-- Python
-- LabVIEW
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=latex, linux" />
+</p>
 
-<!--
-**vlni-168/vlni-168** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<hr>
 
-Here are some ideas to get you started:
+### Still learning
+<br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=autocad, py, git, github" />
+</p>
+
+<hr>

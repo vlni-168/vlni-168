@@ -9,10 +9,10 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 ## Skills
 ### Familiar with
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=latex,linux" />
+  <img src="https://skillicons.dev/icons?i=latex,linux&perline=3" />
 </p>
 
 ### Still learning
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=autocad,py,git,github" />
+  <img src="https://skillicons.dev/icons?i=autocad,py,git,github&perline=3" />
 </p>

@@ -11,7 +11,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=latex, linux" />
+  <img src="https://skillicons.dev/icons?i=latex,linux" />
 </p>
 
 <hr>
@@ -20,7 +20,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=autocad, py, git, github" />
+  <img src="https://skillicons.dev/icons?i=autocad,py,git,github" />
 </p>
 
 <hr>

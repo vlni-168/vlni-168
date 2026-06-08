@@ -7,7 +7,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 - **pchem.py**      - A python module for physical chemistry research
 
 <details>
-  <summary>## Skills</summary>
+  <summary><h3>Skills</h3></summary>
   
   ### Familiar with
   <p align="left">

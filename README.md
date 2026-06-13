@@ -8,7 +8,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Skills
 
-[![Skills](https://github-profile-skills-one.vercel.app/skill?skills=https://github.com/vlni-168/vlni-168/blob/main/skills.json)](https://github.com/stummk/github-profile-skills)
+[![Skills](https://github-profile-skills-one.vercel.app/skill?skills=https://github.com/vlni-168/vlni-168/raw/main/skills.json)](https://github.com/stummk/github-profile-skills)
   
 ### Familiar with
 <p align="left">

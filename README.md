@@ -7,7 +7,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 - **pchem.py**      - A python module for physical chemistry research
 
 ## Skills
-[![Skills](https://github-profile-skills-one.vercel.app/skill?skills=https://githubusercontent.com/vlni-168/vlni-168/raw/refs/heads/main/skills.json)](https://github.com/stummk/github-profile-skills)
+[![Skills](https://github-profile-skills-one.vercel.app/skill?skills=https://raw.githubusercontent.com/vlni-168/vlni-168/refs/heads/main/skills.json)](https://github.com/stummk/github-profile-skills)
   
 ### Familiar with
 <p align="left">

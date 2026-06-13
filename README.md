@@ -10,7 +10,11 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 |  Level  |  Skills  |
 |  -----  |  ------  |
-|  5      |  <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" />
+|  5      |
+|  4      |
+|  3      |
+|  2      |
+|  1      |  ![Git](https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg) ![Python](https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/python.svg)
   
 ## Frequently used open source software
 <p align="left">

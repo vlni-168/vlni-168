@@ -14,7 +14,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 |  4      |
 |  3      |
 |  2      |
-|  1      |  ![Git](https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg) ![Python](https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/python.svg)
+|  1      |  <img height="32" width="32" style="background:#eee;border-radius:4px;padding:4px" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" />
   
 ## Frequently used open source software
 <p align="left">

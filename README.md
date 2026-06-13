@@ -7,10 +7,10 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 - **pchem.py**      - A python module for physical chemistry research
 
 ## Skills
-[![Skills](https://github-profile-skills-one.vercel.app/skill?id=github&level=D)](https://github.com/stummk/github-profile-skills)
-[![Skills](https://github-profile-skills-one.vercel.app/skill?id=git&level=D)](https://github.com/stummk/github-profile-skills)
 
-[![Skills](https://github-profile-skills-one.vercel.app/skill?skills=https://raw.githubusercontent.com/vlni-168/vlni-168/refs/heads/main/skills.jsonmargin-h=15&margin-w=15&theme=matrix)](https://github.com/stummk/github-profile-skills)
+|  Level  |  Skills  |
+|  -----  |  ------  |
+|  5      |  <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" />
   
 ## Frequently used open source software
 <p align="left">

@@ -2,8 +2,8 @@
   { "skill": "python", "level": "C" },
   { "skill": "labview", "level": "C" },
   { "skill": "git", "level": "D" },
-  { "skill": "github", "level": "C" }
-  { "skill": "latex", "level": "B" }
-  { "skill": "linux", "level": "B" }
-  { "skill": "autocad", "level": "D" }
+  { "skill": "github", "level": "C" },
+  { "skill": "latex", "level": "B" },
+  { "skill": "linux", "level": "B" },
+  { "skill": "autocad", "level": "D" },
 ]

@@ -1,4 +1,4 @@
-## Hi, I'm Valentin 👋  
+## Hi, I'm Valentin :scientist:
 
 I'm a physical chemist working on spectroscopy, quantum chemical calculations and software for measurement instruments
 

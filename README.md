@@ -8,13 +8,17 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Skills
 
+<style>
+  .skill-icon { background: #f0f0f0; border-radius: 4px; padding: 4px; }
+</style>
+
 |  Level  |  Skills  |
 |  -----  |  ------  |
-|  5      |
+|  5      |  <img class="skill-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/latex.svg" />
 |  4      |
-|  3      |
+|  3      |  <img class="skill-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/python.svg" />
 |  2      |
-|  1      |  <img height="32" width="32" style="background:#eee;border-radius:4px;padding:4px" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" />
+|  1      |  <img class="skill-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" />
   
 ## Frequently used open source software
 <p align="left">

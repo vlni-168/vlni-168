@@ -9,7 +9,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 ## Skills
 [![Skills](https://github-profile-skills-one.vercel.app/skill?id=github&level=Smargin-h=15&margin-w=15&theme=gruvbox)](https://github.com/stummk/github-profile-skills)
 
-[![Skills](https://github-profile-skills-one.vercel.app/skill?skills=https://raw.githubusercontent.com/vlni-168/vlni-168/refs/heads/main/skills.jsonmargin-h=15&margin-w=15&theme=darkhub)](https://github.com/stummk/github-profile-skills)
+[![Skills](https://github-profile-skills-one.vercel.app/skill?skills=https://raw.githubusercontent.com/vlni-168/vlni-168/refs/heads/main/skills.jsonmargin-h=15&margin-w=15&theme=apprentice)](https://github.com/stummk/github-profile-skills)
   
 ## Frequently used open source software
 <p align="left">

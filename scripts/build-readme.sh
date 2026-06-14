@@ -5,7 +5,7 @@ JSON_FILE="parts/skills.json"
 OUTPUT="README.md"
 
 if [ ! -f "$TEMPLATE" ] || [ ! -f "$JSON_FILE" ]; then
-    echo "Fehler: Vorlagen oder JSON-Datei fehlen!"
+    echo "Error: Template or JSON missing!"
     exit 1
 fi
 
@@ -28,4 +28,4 @@ else
     echo -e "\n## Skills\n$TABLE_CONTENT" >> "$OUTPUT"
 fi
 
-echo "README.md wurde erfolgreich generiert!"
+echo "README.md generated sucessfully!"

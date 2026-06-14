@@ -17,7 +17,8 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 | 1 | |
 
 
-## Frequently used open source software
+## Frequently used quantum chemistry software packages
+
 <p align="left">
   <a href="https://github.com/grimme-lab/xtb" target="_blank">
     <img src="https://img.shields.io/badge/grimme--lab-xTB-aliceblue?logo=github" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
@@ -29,5 +30,9 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
   <br>
   <a href="https://github.com/grimme-lab/CENSO" target="_blank">
     <img src="https://img.shields.io/badge/grimme--lab-CENSO-aliceblue?logo=github" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
+  </a>
+  <br>
+  <a href="https://manual.turbomole.org/v8.0/" target="_blank">
+    <img src="https://img.shields.io/badge/turbomole-maroon" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
   </a>
 </p>

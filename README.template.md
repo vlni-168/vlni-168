@@ -8,7 +8,14 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Skills
 
-<!-- SKILLS_TABLE -->
+| Level | Skills |
+| ----- | ------ |
+| 5 | |
+| 4 | |
+| 3 | |
+| 2 | |
+| 1 | |
+
 
 ## Frequently used open source software
 <p align="left">

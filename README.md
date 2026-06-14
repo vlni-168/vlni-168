@@ -8,10 +8,6 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Skills
 
-<style>
-  .skill-icon { background: #f0f0f0; border-radius: 4px; padding: 4px; }
-</style>
-
 |  Level  |  Skills  |
 |  -----  |  ------  |
 |  5      |  <img class="skill-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/latex.svg" />

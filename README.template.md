@@ -8,15 +8,8 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Skills
 
-| Level | Skills |
-| ----- | ------ |
-| 5 | <img src="https://cdn.simpleicons.org/latex" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
-| 4 | <img src="https://cdn.simpleicons.org/linux" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
-| 3 | <img src="https://cdn.simpleicons.org/python" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
-| 2 | |
-| 1 | <img src="https://cdn.simpleicons.org/git" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
+<!-- SKILLS_TABLE -->
 
-  
 ## Frequently used open source software
 <p align="left">
   <a href="https://github.com/grimme-lab/xtb" target="_blank">

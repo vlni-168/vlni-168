@@ -14,7 +14,7 @@ ICON_URL="https://cdn.simpleicons.org"
     else
       icons=""
       while IFS= read -r slug; do
-        icons+="<img src=\"$ICON_URL/$slug\" style=\"background: #f0f0f0; border-radius: 4px; padding: 4px;\" /> "
+        icons+="<img src=\"$ICON_URL/$slug\" style=\"background: #969696; border-radius: 4px; padding: 4px;\" /> "
       done <<< "$slugs"
       echo "| $level | ${icons% } |"
     fi

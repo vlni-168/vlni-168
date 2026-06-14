@@ -26,6 +26,6 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
   </a>
   <br>
   <a href="https://manual.turbomole.org/v8.0/" target="_blank">
-    <img src="https://img.shields.io/badge/grimme--lab-CENSO-aliceblue?logo=github" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
+    <img src="https://img.shields.io/badge/turbomole-maroon" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
   </a>
 </p>

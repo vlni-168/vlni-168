@@ -4,7 +4,8 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Current projects
 
-- **pchem.py**      - A python module for physical chemistry research
+- **pchem.py**        - A python module for physical chemistry research
+- **ManusSync.py**    - A way to automate uploading contents to Overleaf-projects with python
 
 ## Skills
 

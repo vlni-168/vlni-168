@@ -22,10 +22,10 @@ for level in {5..1}; do
 done
 
 if grep -q "{{SKILLS_TABLE}}" "$TEMPLATE"; then
-    perl -0777 -pe "s/\{\{SKILLS_TABLE\}\}/$TABLE_CONTENT/g" "$TEMPLATE" > "$OUTPUT"
+    export TABLE_CONTENT
+    perl -0777 -pe 's/\{\{SKILLS_TABLE\}\}/$ENV{TABLE_CONTENT}/g' "$TEMPLATE" > "$OUTPUT"
 else
     cat "$TEMPLATE" > "$OUTPUT"
     echo -e "\n## Skills\n$TABLE_CONTENT" >> "$OUTPUT"
 fi
-
 echo "README.md generated sucessfully!"

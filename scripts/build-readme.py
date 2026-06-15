@@ -12,7 +12,7 @@ for level in range(5, 0, -1):
         icons.append(
             f'<img src="https://cdn.simpleicons.org/{slug}" '
             f'width="32" height="32" '
-            f'style="display: inline-block; background: #ffffff; '
+            f'style="display: inline-block; background-color: #f0f0f0; '
             f'border-radius: 4px; padding: 4px; vertical-align: middle;" />'
         )
     # Wrap after every 5 icons, spaces between

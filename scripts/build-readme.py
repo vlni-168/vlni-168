@@ -11,14 +11,15 @@ for level in range(5, 0, -1):
     for slug in slugs:
         icons.append(
             f'<img src="https://cdn.simpleicons.org/{slug}" '
-            f'style="background: #f0f0f0; border-radius: 4px; padding: 4px;" '
-            f'height="32" />'
+            f'width="32" height="32" '
+            f'style="display: inline-block; background: #f0f0f0; '
+            f'border-radius: 4px; padding: 4px; vertical-align: middle;" />'
         )
-    # Wrap after every 5 icons
+    # Wrap after every 5 icons, spaces between
     cell = "<br>".join(
         " ".join(icons[i:i+5]) for i in range(0, len(icons), 5)
     ) if icons else ""
-    rows += f"| {level} |{cell} |\n"
+    rows += f"| {level} | {cell} |\n"
 
 if "{{SKILLS_TABLE}}" in template:
     output = template.replace("{{SKILLS_TABLE}}", rows)

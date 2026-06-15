@@ -16,13 +16,13 @@ for level in {5..1}; do
     
     ROW_ICONS=""
     for skill in $skills; do
-        ROW_ICONS="$ROW_ICONS <img src=\"https://simpleicons.org\" style=\"background: #f0f0f0; border-radius: 4px; padding: 4px;\" />"
+        ROW_ICONS="$ROW_ICONS <img src=\"https://cdn.simpleicons.org/$skill\" style=\"background: #f0f0f0; border-radius: 4px; padding: 4px;\" height=\"32\" />"
     done
     TABLE_CONTENT="${TABLE_CONTENT}| $level |$ROW_ICONS |\n"
 done
 
 if grep -q "{{SKILLS_TABLE}}" "$TEMPLATE"; then
-    awk -v r="$TABLE_CONTENT" '{gsub(/\{\{SKILLS_TABLE\}\}/,r)}1' "$TEMPLATE" > "$OUTPUT"
+    perl -0777 -pe "s/\{\{SKILLS_TABLE\}\}/$TABLE_CONTENT/g" "$TEMPLATE" > "$OUTPUT"
 else
     cat "$TEMPLATE" > "$OUTPUT"
     echo -e "\n## Skills\n$TABLE_CONTENT" >> "$OUTPUT"

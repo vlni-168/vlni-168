@@ -11,11 +11,11 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 | Level | Skills |
 | ----- | ------ |
-| 5 | <img src="https://cdn.simpleicons.org/latex" width="32" height="32" style="display: inline-block; background: #ffffff; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
-| 4 | <img src="https://cdn.simpleicons.org/linux" width="32" height="32" style="display: inline-block; background: #ffffff; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
-| 3 | <img src="https://cdn.simpleicons.org/python" width="32" height="32" style="display: inline-block; background: #ffffff; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
-| 2 | <img src="https://cdn.simpleicons.org/labview" width="32" height="32" style="display: inline-block; background: #ffffff; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
-| 1 | <img src="https://cdn.simpleicons.org/github" width="32" height="32" style="display: inline-block; background: #ffffff; border-radius: 4px; padding: 4px; vertical-align: middle;" /> <img src="https://cdn.simpleicons.org/git" width="32" height="32" style="display: inline-block; background: #ffffff; border-radius: 4px; padding: 4px; vertical-align: middle;" /> <img src="https://cdn.simpleicons.org/autodesk" width="32" height="32" style="display: inline-block; background: #ffffff; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
+| 5 | <img src="https://cdn.simpleicons.org/latex" width="32" height="32" style="display: inline-block; background-color: #f0f0f0; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
+| 4 | <img src="https://cdn.simpleicons.org/linux" width="32" height="32" style="display: inline-block; background-color: #f0f0f0; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
+| 3 | <img src="https://cdn.simpleicons.org/python" width="32" height="32" style="display: inline-block; background-color: #f0f0f0; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
+| 2 | <img src="https://cdn.simpleicons.org/labview" width="32" height="32" style="display: inline-block; background-color: #f0f0f0; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
+| 1 | <img src="https://cdn.simpleicons.org/github" width="32" height="32" style="display: inline-block; background-color: #f0f0f0; border-radius: 4px; padding: 4px; vertical-align: middle;" /> <img src="https://cdn.simpleicons.org/git" width="32" height="32" style="display: inline-block; background-color: #f0f0f0; border-radius: 4px; padding: 4px; vertical-align: middle;" /> <img src="https://cdn.simpleicons.org/autodesk" width="32" height="32" style="display: inline-block; background-color: #f0f0f0; border-radius: 4px; padding: 4px; vertical-align: middle;" /> |
 
 
 ## Frequently used quantum chemistry software packages

@@ -10,7 +10,13 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 ## Skills
 
 | Level | Skills |
-| ----- | ------ || 5 | <img src="https://cdn.simpleicons.org/latex" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> || 4 | <img src="https://cdn.simpleicons.org/linux" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> || 3 | <img src="https://cdn.simpleicons.org/python" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> || 2 | <img src="https://cdn.simpleicons.org/labview" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> || 1 | <img src="https://cdn.simpleicons.org/github" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> <img src="https://cdn.simpleicons.org/git" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> <img src="https://cdn.simpleicons.org/autodesk" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> |
+| ----- | ------ |
+| 5 | <img src="https://cdn.simpleicons.org/latex" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> |
+| 4 | <img src="https://cdn.simpleicons.org/linux" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> |
+| 3 | <img src="https://cdn.simpleicons.org/python" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> |
+| 2 | <img src="https://cdn.simpleicons.org/labview" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> |
+| 1 | <img src="https://cdn.simpleicons.org/github" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> <img src="https://cdn.simpleicons.org/git" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> <img src="https://cdn.simpleicons.org/autodesk" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" height="32" /> |
+
 
 ## Frequently used quantum chemistry software packages
 

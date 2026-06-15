@@ -11,11 +11,11 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 | Level | Skills |
 | ----- | ------ |
-| 5 | |
-| 4 | |
-| 3 | |
-| 2 | |
-| 1 | |
+| 5 | <img src="https://simpleicons.org" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
+| 4 | <img src="https://simpleicons.org" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
+| 3 | <img src="https://simpleicons.org" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
+| 2 | <img src="https://simpleicons.org" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
+| 1 | <img src="https://simpleicons.org" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> <img src="https://simpleicons.org" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> <img src="https://simpleicons.org" style="background: #f0f0f0; border-radius: 4px; padding: 4px;" /> |
 
 
 ## Frequently used quantum chemistry software packages

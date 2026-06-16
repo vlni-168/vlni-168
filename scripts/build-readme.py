@@ -9,11 +9,10 @@ for level in range(5, 0, -1):
     slugs = skills.get(str(level), [])
     icons = []
     for slug in slugs:
+        icon_url = f"{BASE_URL}?name={slug}&theme=dark&size=40&bg=transparent"
         icons.append(
-            f'<img src="https://cdn.simpleicons.org/{slug}" '
-            f'width="32" height="32" '
-            f'style="display: inline-block; background-color: #f0f0f0; '
-            f'border-radius: 4px; padding: 4px; vertical-align: middle;" />'
+            f'<img src="{icon_url}" alt="{slug}" height="32" '
+            f'style="display: inline-block; vertical-align: middle;" />'
         )
     # Wrap after every 5 icons, spaces between
     cell = "<br>".join(

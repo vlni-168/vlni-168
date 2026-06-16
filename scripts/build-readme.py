@@ -71,18 +71,9 @@ for level in range(highest_level, 0, -1):
         f.write(svg_code)
 
     level_bar = f'<img src="{svg_path}" width="120" alt="Level {level}" />'
-
     icons = []
     for slug in slugs:
-        icon_html = f'''
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="{BASE_URL}?name={slug}&theme=dark&size=32&bg={fill_color}" />
-  <img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg=transparent"
-       alt="{slug}"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture>
-'''.strip()
-
+        icon_html = f'<span><img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="{slug}" style="height:32px;vertical-align:middle;" /><img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg={fill_color}#gh-light-mode-only" alt="{slug}" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span>'
         icons.append(icon_html)
 
     cell = "<br>".join(

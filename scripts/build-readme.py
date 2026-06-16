@@ -3,7 +3,7 @@ import json
 import xml.etree.ElementTree as ET
 
 def progressbar(level: int, highest_level: int, width: int = 120, style: str = "rounded",
-                fill_color: str = "4ecdc4") -> str:
+                fill_color: str = "5c7c8a") -> str:
     ET.register_namespace('', 'http://www.w3.org/2000/svg')
     bar_height = 4
 
@@ -60,7 +60,7 @@ rows = "| Level | Skills |\n| ----- | ------ |\n"
 for level in range(highest_level, 0, -1):
     slugs = skills.get(str(level), [])
 
-    svg_code = progressbar(level=level, highest_level=highest_level, width=120)
+    svg_code = progressbar(level=level, highest_level=highest_level, width=100)
     svg_path = f"assets/progress_{level}.svg"
 
     with open(svg_path, "w") as f:

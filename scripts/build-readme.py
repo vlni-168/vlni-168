@@ -93,4 +93,3 @@ with open("README.md", "w") as f:
     f.write(output)
 
 print("README.md generated successfully!")
-``

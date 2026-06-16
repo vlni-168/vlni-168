@@ -3,7 +3,7 @@ import json
 import xml.etree.ElementTree as ET
 
 def progressbar(level: int, highest_level: int, width: int = 120, style: str = "rounded", 
-                start_color: str = "ff6b6b", end_color: str = "4ecdc4")
+                start_color: str = "ff6b6b", end_color: str = "4ecdc4"):
     bar_height = 4
 
     svg = ET.Element('svg', {

@@ -11,46 +11,11 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 | Level | Skills |
 | ----- | ------ |
-| <img src="assets/progress_5.svg" width="120" alt="Level 5" /> | <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readmecodegen.vercel.app/api/social-icon?name=latex&theme=dark&size=32&bg=5c7c8a" />
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=latex&theme=dark&size=32&bg=transparent"
-       alt="latex"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture> |
-| <img src="assets/progress_4.svg" width="120" alt="Level 4" /> | <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readmecodegen.vercel.app/api/social-icon?name=linux&theme=dark&size=32&bg=5c7c8a" />
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=linux&theme=dark&size=32&bg=transparent"
-       alt="linux"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture> |
-| <img src="assets/progress_3.svg" width="120" alt="Level 3" /> | <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readmecodegen.vercel.app/api/social-icon?name=python&theme=dark&size=32&bg=5c7c8a" />
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=python&theme=dark&size=32&bg=transparent"
-       alt="python"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture> |
-| <img src="assets/progress_2.svg" width="120" alt="Level 2" /> | <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readmecodegen.vercel.app/api/social-icon?name=labview&theme=dark&size=32&bg=5c7c8a" />
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=labview&theme=dark&size=32&bg=transparent"
-       alt="labview"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture> |
-| <img src="assets/progress_1.svg" width="120" alt="Level 1" /> | <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readmecodegen.vercel.app/api/social-icon?name=github&theme=dark&size=32&bg=5c7c8a" />
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=github&theme=dark&size=32&bg=transparent"
-       alt="github"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture> <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readmecodegen.vercel.app/api/social-icon?name=git&theme=dark&size=32&bg=5c7c8a" />
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=git&theme=dark&size=32&bg=transparent"
-       alt="git"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture> <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readmecodegen.vercel.app/api/social-icon?name=autodesk&theme=dark&size=32&bg=5c7c8a" />
-  <img src="https://readmecodegen.vercel.app/api/social-icon?name=autodesk&theme=dark&size=32&bg=transparent"
-       alt="autodesk"
-       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-</picture> |
+| <img src="assets/progress_5.svg" width="120" alt="Level 5" /> | <span><img src="https://readmecodegen.vercel.app/api/social-icon?name=latex&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="latex" style="height:32px;vertical-align:middle;" /><img src="https://readmecodegen.vercel.app/api/social-icon?name=latex&theme=dark&size=32&bg=5c7c8a#gh-light-mode-only" alt="latex" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span> |
+| <img src="assets/progress_4.svg" width="120" alt="Level 4" /> | <span><img src="https://readmecodegen.vercel.app/api/social-icon?name=linux&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="linux" style="height:32px;vertical-align:middle;" /><img src="https://readmecodegen.vercel.app/api/social-icon?name=linux&theme=dark&size=32&bg=5c7c8a#gh-light-mode-only" alt="linux" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span> |
+| <img src="assets/progress_3.svg" width="120" alt="Level 3" /> | <span><img src="https://readmecodegen.vercel.app/api/social-icon?name=python&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="python" style="height:32px;vertical-align:middle;" /><img src="https://readmecodegen.vercel.app/api/social-icon?name=python&theme=dark&size=32&bg=5c7c8a#gh-light-mode-only" alt="python" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span> |
+| <img src="assets/progress_2.svg" width="120" alt="Level 2" /> | <span><img src="https://readmecodegen.vercel.app/api/social-icon?name=labview&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="labview" style="height:32px;vertical-align:middle;" /><img src="https://readmecodegen.vercel.app/api/social-icon?name=labview&theme=dark&size=32&bg=5c7c8a#gh-light-mode-only" alt="labview" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span> |
+| <img src="assets/progress_1.svg" width="120" alt="Level 1" /> | <span><img src="https://readmecodegen.vercel.app/api/social-icon?name=github&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="github" style="height:32px;vertical-align:middle;" /><img src="https://readmecodegen.vercel.app/api/social-icon?name=github&theme=dark&size=32&bg=5c7c8a#gh-light-mode-only" alt="github" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span> <span><img src="https://readmecodegen.vercel.app/api/social-icon?name=git&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="git" style="height:32px;vertical-align:middle;" /><img src="https://readmecodegen.vercel.app/api/social-icon?name=git&theme=dark&size=32&bg=5c7c8a#gh-light-mode-only" alt="git" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span> <span><img src="https://readmecodegen.vercel.app/api/social-icon?name=autodesk&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="autodesk" style="height:32px;vertical-align:middle;" /><img src="https://readmecodegen.vercel.app/api/social-icon?name=autodesk&theme=dark&size=32&bg=5c7c8a#gh-light-mode-only" alt="autodesk" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span> |
 
 
 ## Frequently used quantum chemistry software packages

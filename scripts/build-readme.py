@@ -3,6 +3,7 @@ import json
 
 template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))
+BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
 
 rows = "| Level | Skills |\n| ----- | ------ |\n"
 for level in range(5, 0, -1):

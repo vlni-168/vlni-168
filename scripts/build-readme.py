@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 def progressbar(level: int, highest_level: int, width: int = 120, style: str = "rounded",
                 fill_color: str = "5c7c8a") -> str:
     ET.register_namespace('', 'http://www.w3.org/2000/svg')
-    bar_height = 6
+    bar_height = 5
 
     svg = ET.Element('svg', {
         'width': str(width),

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json
-from generate-progress-bar import progressbar
+from generate_progress_bar import progressbar
 
 template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))

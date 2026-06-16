@@ -74,7 +74,7 @@ for level in range(highest_level, 0, -1):
 
     icons = []
     for slug in slugs:
-        icon_html = f'<img src="{BASE_URL}?name={slug}&theme=dark&bg=%23{fill_color}33&size=32" alt="{slug}" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" />'
+        icon_html = f'<img src="{BASE_URL}?name={slug}&size=32&bg=%23{fill_color}&theme=dark&shape=rect" alt="{slug}" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" />'
         icons.append(icon_html)
       
     cell = "<br>".join(

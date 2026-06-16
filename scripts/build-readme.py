@@ -38,6 +38,8 @@ def progressbar(level: int, highest_level: int, width: int = 120, style: str = "
     ET.SubElement(svg, 'rect', active_rect_attrs)
 
     return ET.tostring(svg, encoding='unicode')
+
+
 # === SETUP ===
 template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))
@@ -46,6 +48,7 @@ BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
 highest_level = 5
 fill_color = "5c7c8a"
 
+# assets folder sicherstellen
 try:
     open("assets/.keep", "x").close()
 except FileExistsError:
@@ -72,14 +75,14 @@ for level in range(highest_level, 0, -1):
     icons = []
     for slug in slugs:
         icon_html = f'''
-        <picture>
-          <source media="(prefers-color-scheme: light)" srcset="{BASE_URL}?name={slug}&theme=dark&size=32&bg={fill_color}" />
-          <img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg=transparent"
-               alt="{slug}"
-               style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
-        </picture>
-        '''.strip()
-        
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="{BASE_URL}?name={slug}&theme=dark&size=32&bg={fill_color}" />
+  <img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg=transparent"
+       alt="{slug}"
+       style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
+</picture>
+'''.strip()
+
         icons.append(icon_html)
 
     cell = "<br>".join(

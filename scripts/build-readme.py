@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+from generate-progress-bar import progressbar
 
 template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))
@@ -11,6 +12,8 @@ highest_level = 5
 rows = "| Level | Skills |\n| ----- | ------ |\n"
 for level in range(highest_level, 0, -1):
     slugs = skills.get(str(level), [])
+    svg_code = progressbar(level=level, highest_level=highest_level, width=120)
+    level_bar = f'<div align="center">{svg_code}</div>'
     icons = []
     percentage = level/highest_level
     for slug in slugs:
@@ -23,7 +26,7 @@ for level in range(highest_level, 0, -1):
     cell = "<br>".join(
         " ".join(icons[i:i+5]) for i in range(0, len(icons), 5)
     ) if icons else ""
-    rows += f"| {level} | {cell} |\n"
+    rows += f"| {level_bar} | {cell} |\n"
 
 if "{{SKILLS_TABLE}}" in template:
     output = template.replace("{{SKILLS_TABLE}}", rows)

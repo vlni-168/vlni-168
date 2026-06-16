@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import xml.etree.ElementTree as ET
+import base64
 
 def progressbar(level: int, highest_level: int, width: int = 120, style: str = "rounded", 
                 start_color: str = "ff6b6b", end_color: str = "4ecdc4"):
@@ -57,7 +58,8 @@ rows = "| Level | Skills |\n| ----- | ------ |\n"
 for level in range(highest_level, 0, -1):
     slugs = skills.get(str(level), [])
     svg_code = progressbar(level=level, highest_level=highest_level, width=120)
-    level_bar = f'<div align="center">{svg_code}</div>'
+    encoded_svg = base64.b64encode(svg_code.encode('utf-8')).decode('utf-8')
+    level_bar = f'<img src="data:image/svg+xml;base64,{encoded_svg}" alt="Level {level}" width="120" style="vertical-align: middle;" />'
     icons = []
     percentage = level/highest_level
     for slug in slugs:

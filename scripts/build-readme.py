@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 import json
 import xml.etree.ElementTree as ET
-import base64
 
 def progressbar(level: int, highest_level: int, width: int = 120, style: str = "rounded",
                 fill_color: str = "4ecdc4") -> str:
-    ET.register_namespace('', 'http://w3.org')
+    ET.register_namespace('', 'http://www.w3.org/2000/svg')
     bar_height = 4
 
     svg = ET.Element('svg', {
@@ -15,25 +14,21 @@ def progressbar(level: int, highest_level: int, width: int = 120, style: str = "
         'xmlns': 'http://www.w3.org/2000/svg'
     })
 
-    # Hintergrund (grau)
     bg_rect_attrs = {
         'x': '0', 'y': '0',
         'width': str(width), 'height': str(bar_height),
         'fill': '#e0e0e0'
     }
 
-    # Fortschritt berechnen
     level = max(0, min(level, highest_level))
     progress_width = (level / highest_level) * width
 
-    # Fortschrittsbalken (einfarbig)
     active_rect_attrs = {
         'x': '0', 'y': '0',
         'width': str(progress_width), 'height': str(bar_height),
         'fill': f'#{fill_color}'
     }
 
-    # Rundung optional
     if style == "rounded":
         radius = str(bar_height / 2)
         bg_rect_attrs.update({'rx': radius, 'ry': radius})
@@ -42,33 +37,42 @@ def progressbar(level: int, highest_level: int, width: int = 120, style: str = "
     ET.SubElement(svg, 'rect', bg_rect_attrs)
     ET.SubElement(svg, 'rect', active_rect_attrs)
 
-    return ET.tostring(svg, encoding='utf-8', method='xml').decode('utf-8')
-
-
+    return ET.tostring(svg, encoding='unicode')
+# === SETUP ===
 template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))
 
 BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
 highest_level = 5
 
+try:
+    open("assets/.keep", "x").close()
+except FileExistsError:
+    pass
+except FileNotFoundError:
+    import pathlib
+    pathlib.Path("assets").mkdir(parents=True, exist_ok=True)
+    open("assets/.keep", "w").close()
+
 rows = "| Level | Skills |\n| ----- | ------ |\n"
 
+# === GENERATE ===
 for level in range(highest_level, 0, -1):
     slugs = skills.get(str(level), [])
 
-    svg_code = progressbar(level=level, highest_level=5, width=120)
-    clean_svg = "".join(svg_code.splitlines()).strip()
+    svg_code = progressbar(level=level, highest_level=highest_level, width=120)
+    svg_path = f"assets/progress_{level}.svg"
 
-    encoded_svg = base64.b64encode(clean_svg.encode('utf-8')).decode('utf-8')
+    with open(svg_path, "w") as f:
+        f.write(svg_code)
 
-    # ✅ FIX: echtes <img>, kein HTML-escaping
-    level_bar = f'<img src="data:image/svg+xml;base64,{encoded_svg}" alt="Level {level}" width="120" style="vertical-align: middle;" />'
+    level_bar = f'<img src="{svg_path}" width="120" alt="Level {level}" />'
 
     icons = []
     for slug in slugs:
         icon_url = f"{BASE_URL}?name={slug}&theme=dark&size=40&bg=transparent"
         icons.append(
-            f'<img src="{icon_url}" alt="{slug}" height="32" style="display:inline-block; vertical-align: middle;" />'
+            f'<img src="{icon_url}" alt="{slug}" height="32" />'
         )
 
     cell = "<br>".join(
@@ -77,6 +81,7 @@ for level in range(highest_level, 0, -1):
 
     rows += f"| {level_bar} | {cell} |\n"
 
+# === README BUILD ===
 if "{{SKILLS_TABLE}}" in template:
     output = template.replace("{{SKILLS_TABLE}}", rows)
 else:

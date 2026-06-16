@@ -44,6 +44,7 @@ skills = json.load(open("parts/skills.json"))
 
 BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
 highest_level = 5
+fill_color = "5c7c8a"
 
 try:
     open("assets/.keep", "x").close()
@@ -60,7 +61,7 @@ rows = "| Level | Skills |\n| ----- | ------ |\n"
 for level in range(highest_level, 0, -1):
     slugs = skills.get(str(level), [])
 
-    svg_code = progressbar(level=level, highest_level=highest_level, width=100)
+    svg_code = progressbar(level=level, highest_level=highest_level, width=100, fill_color=fill_color)
     svg_path = f"assets/progress_{level}.svg"
 
     with open(svg_path, "w") as f:
@@ -70,10 +71,16 @@ for level in range(highest_level, 0, -1):
 
     icons = []
     for slug in slugs:
-        icon_url = f"{BASE_URL}?name={slug}&theme=dark&size=40&bg=transparent"
-        icons.append(
-            f'<img src="{icon_url}" alt="{slug}" height="32" />'
-        )
+        icon_html = f'''
+        <picture>
+          <source media="(prefers-color-scheme: light)" srcset="{BASE_URL}?name={slug}&theme=dark&size=32&bg={fill_color}" />
+          <img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg=transparent"
+               alt="{slug}"
+               style="display:inline-block;vertical-align:middle;padding:3px;border-radius:8px;" />
+        </picture>
+        '''.strip()
+        
+        icons.append(icon_html)
 
     cell = "<br>".join(
         " ".join(icons[i:i+5]) for i in range(0, len(icons), 5)

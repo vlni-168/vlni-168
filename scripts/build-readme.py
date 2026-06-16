@@ -45,7 +45,7 @@ template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))
 
 BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
-highest_level = 5
+highest_level = max(map(int, skills.keys()))
 fill_color = "5c7c8a"
 
 # assets folder sicherstellen

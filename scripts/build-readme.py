@@ -5,11 +5,14 @@ template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))
 # see https://github.com/Readmecodegen/Embed-Social-Icons-in-GitHub-README-SVG-Generator for advice on icon generation
 BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
+# see https://github.com/slimnate/skill-progress for idea for progress bars
+highest_level = 5
 
 rows = "| Level | Skills |\n| ----- | ------ |\n"
-for level in range(5, 0, -1):
+for level in range(highest_level, 0, -1):
     slugs = skills.get(str(level), [])
     icons = []
+    percentage = level/highest_level
     for slug in slugs:
         icon_url = f"{BASE_URL}?name={slug}&theme=dark&size=40&bg=transparent"
         icons.append(

@@ -20,7 +20,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 ## Frequently used quantum chemistry software packages
 
-[<img src="https://img.shields.io/badge/turbomole-maroon" height="48" align="center" />](https://manual.turbomole.org/v8.0/)[<img src="https://img.shields.io/badge/ORCA-%2300A3C4" height="48" align="center" />](https://www.faccts.de/orca/)[<img src="https://img.shields.io/badge/grimme--lab-xTB-aliceblue?logo=github" height="48" align="center" />](https://github.com/grimme-lab/xtb)[<img src="https://img.shields.io/badge/grimme--lab-crest-aliceblue?logo=github" height="48" align="center" />](https://github.com/grimme-lab/crest)[<img src="https://img.shields.io/badge/grimme--lab-CENSO-aliceblue?logo=github" height="48" align="center" />](https://github.com/grimme-lab/CENSO)
+[<img src="https://img.shields.io/badge/turbomole-maroon" height="48" align="center" />](https://manual.turbomole.org/v8.0/)&nbsp;[<img src="https://img.shields.io/badge/ORCA-%2300A3C4" height="48" align="center" />](https://www.faccts.de/orca/)&nbsp;[<img src="https://img.shields.io/badge/grimme--lab-xTB-aliceblue?logo=github" height="48" align="center" />](https://github.com/grimme-lab/xtb)&nbsp;[<img src="https://img.shields.io/badge/grimme--lab-crest-aliceblue?logo=github" height="48" align="center" />](https://github.com/grimme-lab/crest)&nbsp;[<img src="https://img.shields.io/badge/grimme--lab-CENSO-aliceblue?logo=github" height="48" align="center" />](https://github.com/grimme-lab/CENSO)&nbsp;
 
 
 <p align="left" style="text-decoration: none; display: flex; flex-wrap: wrap; align-items: center;">

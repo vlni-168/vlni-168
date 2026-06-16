@@ -73,8 +73,7 @@ for level in range(highest_level, 0, -1):
     level_bar = f'<img src="{svg_path}" width="120" alt="Level {level}" />'
     icons = []
     for slug in slugs:
-        icon_html = f'<span><img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="{slug}" style="height:32px;vertical-align:middle;" /><img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg={fill_color}#gh-light-mode-only" alt="{slug}" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /></span>'
-        icons.append(icon_html)
+        icon_html = f'<img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg=transparent#gh-dark-mode-only" alt="{slug}" style="height:32px;vertical-align:middle;" /><img src="{BASE_URL}?name={slug}&theme=dark&size=32&bg={fill_color}#gh-light-mode-only" alt="{slug}" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" />'
 
     cell = "<br>".join(
         " ".join(icons[i:i+5]) for i in range(0, len(icons), 5)

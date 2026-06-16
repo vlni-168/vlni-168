@@ -58,8 +58,8 @@ for level in range(highest_level, 0, -1):
     svg_code = progressbar(level=level, highest_level=5, width=120)
     clean_svg = "".join(svg_code.splitlines()).strip()
     encoded_svg = base64.b64encode(clean_svg.encode('utf-8')).decode('utf-8')
-    level_bar = f'<img src="data:image/svg+xml;base64,{encoded_svg}" alt="Level {level}" width="120" style="vertical-align: middle;" />'    icons = []
-    percentage = level/highest_level
+    level_bar = f'<img src="data:image/svg+xml;base64,{encoded_svg}" alt="Level {level}" width="120" style="vertical-align: middle;" />'    
+    icons = []
     for slug in slugs:
         icon_url = f"{BASE_URL}?name={slug}&theme=dark&size=40&bg=transparent"
         icons.append(

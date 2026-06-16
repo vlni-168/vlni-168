@@ -5,6 +5,7 @@ import base64
 
 def progressbar(level: int, highest_level: int, width: int = 120, style: str = "rounded", 
                 start_color: str = "ff6b6b", end_color: str = "4ecdc4") -> str:
+    ET.register_namespace('', 'http://w3.org')
     bar_height = 4
     svg = ET.Element('svg', {
         'width': str(width),
@@ -12,6 +13,7 @@ def progressbar(level: int, highest_level: int, width: int = 120, style: str = "
         'viewBox': f'0 0 {width} {bar_height}',
         'xmlns': 'http://w3.org'
     })
+    
     defs = ET.SubElement(svg, 'defs')
     linear_gradient = ET.SubElement(defs, 'linearGradient', {
         'id': f'progressGrad_{level}',  
@@ -42,8 +44,9 @@ def progressbar(level: int, highest_level: int, width: int = 120, style: str = "
         
     ET.SubElement(svg, 'rect', bg_rect_attrs)
     ET.SubElement(svg, 'rect', active_rect_attrs)
+                  
+    return ET.tostring(svg, encoding='utf-8', xml_declaration=False, method='xml').decode('utf-8')
 
-    return ET.tostring(svg, encoding='utf-8', method='xml').decode('utf-8')
 
 template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))

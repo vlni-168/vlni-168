@@ -19,7 +19,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
   </a>
   <br>
   <a href="https://www.faccts.de/orca/" target="_blank">
-    <img src="https://img.shields.io/badge/ORCA-#00A3C4" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
+    <img src="https://img.shields.io/badge/ORCA-%2300A3C4" height="48" style="margin-left: 6px; border-radius: 10px;" align="center" />
   </a>
   <br>
   <a href="https://github.com/grimme-lab/xtb" target="_blank">

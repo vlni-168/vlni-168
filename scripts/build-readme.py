@@ -3,6 +3,7 @@ import json
 
 template = open("README.template.md").read()
 skills = json.load(open("parts/skills.json"))
+# see https://github.com/Readmecodegen/Embed-Social-Icons-in-GitHub-README-SVG-Generator for advice on icon generation
 BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
 
 rows = "| Level | Skills |\n| ----- | ------ |\n"

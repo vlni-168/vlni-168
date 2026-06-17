@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import xml.etree.ElementTree as ET
+import pathlib
 
 def progressbar(level: int, highest_level: int, width: int = 120, style: str = "rounded",
                 fill_color: str = "5c7c8a") -> str:

@@ -58,6 +58,11 @@ except FileNotFoundError:
     pathlib.Path("assets").mkdir(parents=True, exist_ok=True)
     open("assets/.keep", "w").close()
 
+# assets cleanup
+assets_path = pathlib.Path("assets")
+for file in assets_path.glob("progress_*.svg"):
+    file.unlink()
+
 rows = "| Level | Skills |\n| ----- | ------ |\n"
 
 # === GENERATE ===

@@ -11,6 +11,7 @@ I'm a physical chemist working on spectroscopy, quantum chemical calculations an
 
 | Level | Skills |
 | ----- | ------ |
+| <img src="assets/progress_6.svg" width="120" alt="Level 6" /> | <img src="https://readmecodegen.vercel.app/api/social-icon?name=googlechrome&size=32&bg=%235c7c8a&theme=dark&shape=rect" alt="googlechrome" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /> |
 | <img src="assets/progress_5.svg" width="120" alt="Level 5" /> | <img src="https://readmecodegen.vercel.app/api/social-icon?name=latex&size=32&bg=%235c7c8a&theme=dark&shape=rect" alt="latex" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /> |
 | <img src="assets/progress_4.svg" width="120" alt="Level 4" /> | <img src="https://readmecodegen.vercel.app/api/social-icon?name=linux&size=32&bg=%235c7c8a&theme=dark&shape=rect" alt="linux" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /> |
 | <img src="assets/progress_3.svg" width="120" alt="Level 3" /> | <img src="https://readmecodegen.vercel.app/api/social-icon?name=python&size=32&bg=%235c7c8a&theme=dark&shape=rect" alt="python" style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" /> |

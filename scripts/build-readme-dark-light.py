@@ -51,28 +51,14 @@ BASE_URL = "https://readmecodegen.vercel.app/api/social-icon"
 highest_level = max(map(int, skills.keys()))
 accent = "5c7c8a"
 
-# Color schemes per mode
-LIGHT_PROGRESS_BG = "#d0d7de"   # visible against a white page
-DARK_PROGRESS_BG  = "#30363d"   # GitHub dark mode surface
-LIGHT_ICON_BG     = "f0f0f0"    # subtle gray badge
-DARK_ICON_BG      = accent      # colored badge
+# Color schemes for progress bars
+LIGHT_PROGRESS_BG = "#d0d7de"
+DARK_PROGRESS_BG  = "#30363d"
 
 # Ensure assets dir and clean old SVGs
 pathlib.Path("assets").mkdir(exist_ok=True)
 for f in pathlib.Path("assets").glob("progress_*.svg"):
     f.unlink()
-
-# === CSS for light/dark mode ===
-# Default: light visible (fallback for browsers without media-query support)
-# Dark mode: swaps visibility
-style_block = """<style>
-.skills-dark { display: none; }
-.skills-light { display: inline; }
-@media (prefers-color-scheme: dark) {
-  .skills-dark { display: inline; }
-  .skills-light { display: none; }
-}
-</style>"""
 
 # === GENERATE TABLE ===
 rows = ""
@@ -80,45 +66,45 @@ rows = ""
 for level in range(highest_level, 0, -1):
     slugs = skills.get(str(level), [])
 
-    # Two progress bar SVGs (one per color scheme)
+    # Generate two progress bar SVGs per level
     for mode, bg in [("light", LIGHT_PROGRESS_BG), ("dark", DARK_PROGRESS_BG)]:
         svg = progressbar(level, highest_level, width=100,
                          fill_color=accent, bg_color=bg)
         pathlib.Path(f"assets/progress_{level}_{mode}.svg").write_text(svg)
 
-    bar_light = f'<img src="assets/progress_{level}_light.svg" width="120" alt="Level {level}" />'
-    bar_dark  = f'<img src="assets/progress_{level}_dark.svg" width="120" alt="Level {level}" />'
-
-    # Two icon sets (theme + bg differ per mode)
-    def build_icons(theme, bg_hex):
-        parts = []
-        for slug in slugs:
-            parts.append(
-                f'<img src="{BASE_URL}?name={slug}&size=32&bg=%23{bg_hex}'
-                f'&theme={theme}&shape=rect" alt="{slug}"'
-                f' style="height:32px;vertical-align:middle;padding:3px;border-radius:8px;" />'
-            )
-        if not parts:
-            return ""
-        return "<br>".join(" ".join(parts[i:i+5]) for i in range(0, len(parts), 5))
-
-    icons_light = build_icons("light", LIGHT_ICON_BG)
-    icons_dark  = build_icons("dark",  DARK_ICON_BG)
-
-    rows += (
-        f'| <span class="skills-light">{bar_light}</span>'
-        f'<span class="skills-dark">{bar_dark}</span>'
-        f' | <span class="skills-light">{icons_light}</span>'
-        f'<span class="skills-dark">{icons_dark}</span> |\n'
+    # <picture> element picks the right SVG automatically
+    bar = (
+        f'<picture>'
+        f'<source media="(prefers-color-scheme: dark)" '
+        f'srcset="assets/progress_{level}_dark.svg">'
+        f'<img src="assets/progress_{level}_light.svg" width="120" '
+        f'alt="Level {level}">'
+        f'</picture>'
     )
 
-# === BUILD README ===
-skills_section = style_block + "\n\n" + rows
+    # Neutral icons: light theme on a soft gray background
+    # works acceptably on both white and dark pages
+    icons = []
+    for slug in slugs:
+        icons.append(
+            f'<img src="{BASE_URL}?name={slug}&size=32'
+            f'&bg=%23f6f8fa&theme=light&shape=rect" '
+            f'alt="{slug}" '
+            f'style="height:32px;vertical-align:middle;padding:3px;'
+            f'border-radius:8px;background:#f6f8fa;border:1px solid #d0d7de;" />'
+        )
 
+    cell = "<br>".join(
+        " ".join(icons[i:i+5]) for i in range(0, len(icons), 5)
+    ) if icons else ""
+
+    rows += f"| {bar} | {cell} |\n"
+
+# === BUILD README ===
 if "{{SKILLS_TABLE}}" in template:
-    output = template.replace("{{SKILLS_TABLE}}", skills_section)
+    output = template.replace("{{SKILLS_TABLE}}", rows)
 else:
-    output = template + "\n## Skills\n" + skills_section
+    output = template + "\n## Skills\n" + rows
 
 pathlib.Path("README.md").write_text(output)
 print("README.md generated successfully!")

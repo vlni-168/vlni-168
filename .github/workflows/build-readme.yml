@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v6
-      - run: python3 scripts/build-readme.py
+      - run: python3 scripts/build-readme-dark-light.py
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'Build README from template'

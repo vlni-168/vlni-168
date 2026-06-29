@@ -1,7 +1,7 @@
 {
-  "5": ["latex"],
-  "4": ["linux"],
-  "3": ["python"],
+  "5": [],
+  "4": ["latex"],
+  "3": ["python", "linux"],
   "2": ["labview"],
   "1": ["github", "git", "autodesk"]
 }

@@ -1,6 +1,6 @@
 ## Hi, I'm Valentin :alembic:
 
-I'm a physical chemist working on spectroscopy, quantum chemical calculations and software for measurement instruments
+I'm a physical chemist working on spectroscopy, quantum chemical calculations and software for measurement instruments.
 
 ## Current projects
 

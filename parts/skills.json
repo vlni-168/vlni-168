@@ -2,6 +2,6 @@
   "5": [],
   "4": ["latex"],
   "3": ["python", "linux"],
-  "2": ["labview"],
-  "1": ["github", "git", "autodesk"]
+  "2": ["github", "git"],
+  "1": ["labview", "autodesk"]
 }

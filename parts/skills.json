@@ -1,7 +1,7 @@
 {
-  "5": [],
+  "5": ["inkscape"],
   "4": ["latex"],
-  "3": ["python", "linux"],
+  "3": ["python", "linux", "typo3"],
   "2": ["github", "git"],
   "1": ["labview", "autodesk"]
 }
